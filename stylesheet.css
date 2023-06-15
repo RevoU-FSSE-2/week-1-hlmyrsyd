@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+ul {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: ;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    height: 10rem;
+    border-radius: 16px;
+}
+
+button  {
+    background-color: black;
+    color: White;
+    font-weight: 600;
+}
+
+.footer {
+    font-size: .7rem;
+
+}
