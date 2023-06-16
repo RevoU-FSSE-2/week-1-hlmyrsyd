@@ -1,33 +1,96 @@
+html {
+    width: auto;
+    height: auto;
+}
+
 body {
     font-family: sans-serif;
     background-color: gray;
+    margin: 0;
 }
 
+/* Nav Start */
 ul {
     font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-h1 {
-    font-size: 1.5rem;
-    font-weight: ;
+li  {
+    float: left; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkgray;
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+/* Nav End */
+
+/* Section 1 Start */
+.section1 {
+    margin: 0; 
+    border: 3px;
+    display: grid;
+    justify-content: center;
+}
+
+h1, h2{
+    font-weight: bold;
+    font-style: italic;
+    display: grid;
+    justify-content: center;
 }
 
 p {
     font-size: 1rem;
+    display: grid;
+    justify-content: center;
 }
 
 img {
     height: 10rem;
     border-radius: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button  {
-    background-color: black;
+    border-radius: 15px;
+    height: 50px;
+    background-color: darkgray;
     color: White;
     font-weight: 600;
 }
 
-.footer {
-    font-size: .7rem;
-
+button:hover {
+    background-color: #111;
 }
+
+/* Section 1 End */
+
+/* footer Start */
+
+.footer {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer End */
